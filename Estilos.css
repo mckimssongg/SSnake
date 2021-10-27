@@ -1,5 +1,9 @@
 * {
+    color: white;
     font-family: 'Share Tech Mono', monospace;
+}
+body{
+    background-color: black;
 }
 
 #board, .boardInfo {
@@ -35,7 +39,7 @@
 }
 
 #start {
-    background-color: #f35a69;
+    background-color: #f03447;
     border: none;
     color: white;
 }
@@ -49,7 +53,7 @@
 }
 
 .emptySquare {
-    background-color: #2e2f3383;
+    background-color: #38393bde;
 }
 
 .snakeSquare {
@@ -72,8 +76,4 @@
 .foodSquare {
     background-color: #fd1f1f;
     border: 1px solid #000;
-}
-
-.flechas{
-    border: 2px solid black
 }
